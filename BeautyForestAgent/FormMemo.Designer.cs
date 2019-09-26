@@ -132,6 +132,7 @@
             this.btnLoadFileSelect.TabIndex = 1;
             this.btnLoadFileSelect.Text = "파일 선택";
             this.btnLoadFileSelect.UseVisualStyleBackColor = true;
+            this.btnLoadFileSelect.Click += new System.EventHandler(this.BtnLoadFileSelect_Click);
             // 
             // btnLoadFile
             // 
@@ -141,6 +142,7 @@
             this.btnLoadFile.TabIndex = 2;
             this.btnLoadFile.Text = "불러오기";
             this.btnLoadFile.UseVisualStyleBackColor = true;
+            this.btnLoadFile.Click += new System.EventHandler(this.BtnLoadFile_Click);
             // 
             // btnSaveFileSelect
             // 
@@ -150,6 +152,7 @@
             this.btnSaveFileSelect.TabIndex = 1;
             this.btnSaveFileSelect.Text = "파일 선택";
             this.btnSaveFileSelect.UseVisualStyleBackColor = true;
+            this.btnSaveFileSelect.Click += new System.EventHandler(this.BtnSaveFileSelect_Click);
             // 
             // btnSaveFile
             // 
@@ -159,6 +162,7 @@
             this.btnSaveFile.TabIndex = 2;
             this.btnSaveFile.Text = "저장하기";
             this.btnSaveFile.UseVisualStyleBackColor = true;
+            this.btnSaveFile.Click += new System.EventHandler(this.BtnSaveFile_Click);
             // 
             // txtLoadText
             // 
@@ -197,6 +201,7 @@
             this.MaximizeBox = false;
             this.Name = "FormMemo";
             this.Text = "3504 김예원";
+            this.Load += new System.EventHandler(this.FormMemo_Load);
             this.Status.ResumeLayout(false);
             this.Status.PerformLayout();
             this.tabMode.ResumeLayout(false);
